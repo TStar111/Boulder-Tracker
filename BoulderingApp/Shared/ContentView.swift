@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var sesh = Session.sampleData
     var body: some View {
         TabView {
-            HomeView()
-                .tabItem {
-                    Label("Record", systemImage: "record.circle")
-                }
+            NavigationView {
+                SessionList(sesh: $sesh)
+            }
+            .tabItem {
+                Label("Record", systemImage: "record.circle")
+            }
             ProgressView()
                 .tabItem {
                     Label("Progress", systemImage: "chart.bar.xaxis")

@@ -18,8 +18,6 @@
 		9B2964A9298E2B9900357969 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964A7298E2B9900357969 /* EntryView.swift */; };
 		9B2964B4298E32CC00357969 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B3298E32CC00357969 /* ProgressView.swift */; };
 		9B2964B5298E32CC00357969 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B3298E32CC00357969 /* ProgressView.swift */; };
-		9B2964B7298E3AB800357969 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B6298E3AB800357969 /* HomeView.swift */; };
-		9B2964B8298E3AB800357969 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B6298E3AB800357969 /* HomeView.swift */; };
 		9B815F58298E5EF500149741 /* SessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F57298E5EF500149741 /* SessionList.swift */; };
 		9B815F59298E5EF500149741 /* SessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F57298E5EF500149741 /* SessionList.swift */; };
 		9B815F5B298E5FFD00149741 /* SessionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F5A298E5FFD00149741 /* SessionObject.swift */; };
@@ -28,6 +26,8 @@
 		9B815F5F298E6C4500149741 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F5D298E6C4500149741 /* SessionStore.swift */; };
 		9B815F61298E7CCC00149741 /* SessionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F60298E7CCC00149741 /* SessionCardView.swift */; };
 		9B815F62298E7CCC00149741 /* SessionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F60298E7CCC00149741 /* SessionCardView.swift */; };
+		9BF3ECD6298E820300114850 /* TempProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3ECD5298E820300114850 /* TempProjectView.swift */; };
+		9BF3ECDA298E8E6B00114850 /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3ECD9298E8E6B00114850 /* AddSessionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,11 +40,12 @@
 		9B296498298E193000357969 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9B2964A7298E2B9900357969 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 		9B2964B3298E32CC00357969 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
-		9B2964B6298E3AB800357969 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9B815F57298E5EF500149741 /* SessionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionList.swift; sourceTree = "<group>"; };
 		9B815F5A298E5FFD00149741 /* SessionObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionObject.swift; sourceTree = "<group>"; };
 		9B815F5D298E6C4500149741 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		9B815F60298E7CCC00149741 /* SessionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCardView.swift; sourceTree = "<group>"; };
+		9BF3ECD5298E820300114850 /* TempProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempProjectView.swift; sourceTree = "<group>"; };
+		9BF3ECD9298E8E6B00114850 /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,22 +66,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4601A1CA298E48DD0072CD1B /* SessionView */ = {
-			isa = PBXGroup;
-			children = (
-				9B2964A7298E2B9900357969 /* EntryView.swift */,
-			);
-			path = SessionView;
-			sourceTree = "<group>";
-		};
-		90A1384C298E4E07005E635A /* SummaryView */ = {
-			isa = PBXGroup;
-			children = (
-				90A1384D298E4E1C005E635A /* TimeLocation.swift */,
-			);
-			path = SummaryView;
-			sourceTree = "<group>";
-		};
 		9B296483298E192E00357969 = {
 			isa = PBXGroup;
 			children = (
@@ -93,11 +78,17 @@
 		9B296488298E192E00357969 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				90A1384C298E4E07005E635A /* SummaryView */,
-				9B2964B9298E489C00357969 /* HomePage */,
+				90A1384D298E4E1C005E635A /* TimeLocation.swift */,
+				9B29648A298E192E00357969 /* ContentView.swift */,
+				9B815F57298E5EF500149741 /* SessionList.swift */,
+				9B815F60298E7CCC00149741 /* SessionCardView.swift */,
+				9B815F5A298E5FFD00149741 /* SessionObject.swift */,
+				9BF3ECD9298E8E6B00114850 /* AddSessionView.swift */,
+				9B815F5D298E6C4500149741 /* SessionStore.swift */,
+				9BF3ECD5298E820300114850 /* TempProjectView.swift */,
 				9B296489298E192E00357969 /* BoulderingAppApp.swift */,
 				9B2964B3298E32CC00357969 /* ProgressView.swift */,
-				4601A1CA298E48DD0072CD1B /* SessionView */,
+				9B2964A7298E2B9900357969 /* EntryView.swift */,
 				9B29648B298E193000357969 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -118,19 +109,6 @@
 				9B296498298E193000357969 /* macOS.entitlements */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		9B2964B9298E489C00357969 /* HomePage */ = {
-			isa = PBXGroup;
-			children = (
-				9B2964B6298E3AB800357969 /* HomeView.swift */,
-				9B29648A298E192E00357969 /* ContentView.swift */,
-				9B815F57298E5EF500149741 /* SessionList.swift */,
-				9B815F60298E7CCC00149741 /* SessionCardView.swift */,
-				9B815F5A298E5FFD00149741 /* SessionObject.swift */,
-				9B815F5D298E6C4500149741 /* SessionStore.swift */,
-			);
-			path = HomePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,10 +211,11 @@
 			files = (
 				9B29649B298E193000357969 /* ContentView.swift in Sources */,
 				9B815F5B298E5FFD00149741 /* SessionObject.swift in Sources */,
-				9B2964B7298E3AB800357969 /* HomeView.swift in Sources */,
+				9BF3ECD6298E820300114850 /* TempProjectView.swift in Sources */,
 				9B815F61298E7CCC00149741 /* SessionCardView.swift in Sources */,
 				9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A8298E2B9900357969 /* EntryView.swift in Sources */,
+				9BF3ECDA298E8E6B00114850 /* AddSessionView.swift in Sources */,
 				9B815F5E298E6C4500149741 /* SessionStore.swift in Sources */,
 				9B2964B4298E32CC00357969 /* ProgressView.swift in Sources */,
 				9B815F58298E5EF500149741 /* SessionList.swift in Sources */,
@@ -250,7 +229,6 @@
 			files = (
 				9B29649C298E193000357969 /* ContentView.swift in Sources */,
 				9B815F5C298E5FFD00149741 /* SessionObject.swift in Sources */,
-				9B2964B8298E3AB800357969 /* HomeView.swift in Sources */,
 				9B815F59298E5EF500149741 /* SessionList.swift in Sources */,
 				9B29649A298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A9298E2B9900357969 /* EntryView.swift in Sources */,
