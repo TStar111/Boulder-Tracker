@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90A1384E298E4E1C005E635A /* TimeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A1384D298E4E1C005E635A /* TimeLocation.swift */; };
 		9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B296489298E192E00357969 /* BoulderingAppApp.swift */; };
 		9B29649A298E193000357969 /* BoulderingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B296489298E192E00357969 /* BoulderingAppApp.swift */; };
 		9B29649B298E193000357969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B29648A298E192E00357969 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90A1384D298E4E1C005E635A /* TimeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLocation.swift; sourceTree = "<group>"; };
 		9B296489298E192E00357969 /* BoulderingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingAppApp.swift; sourceTree = "<group>"; };
 		9B29648A298E192E00357969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B29648B298E193000357969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 			path = SessionView;
 			sourceTree = "<group>";
 		};
+		90A1384C298E4E07005E635A /* SummaryView */ = {
+			isa = PBXGroup;
+			children = (
+				90A1384D298E4E1C005E635A /* TimeLocation.swift */,
+			);
+			path = SummaryView;
+			sourceTree = "<group>";
+		};
 		9B296483298E192E00357969 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		9B296488298E192E00357969 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				90A1384C298E4E07005E635A /* SummaryView */,
 				9B2964B9298E489C00357969 /* HomePage */,
 				9B296489298E192E00357969 /* BoulderingAppApp.swift */,
 				9B2964B3298E32CC00357969 /* ProgressView.swift */,
@@ -209,6 +220,7 @@
 				9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A8298E2B9900357969 /* EntryView.swift in Sources */,
 				9B2964B4298E32CC00357969 /* ProgressView.swift in Sources */,
+				90A1384E298E4E1C005E635A /* TimeLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
