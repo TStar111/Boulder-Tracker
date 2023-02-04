@@ -51,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4601A1CA298E48DD0072CD1B /* SessionView */ = {
+			isa = PBXGroup;
+			children = (
+				9B2964A7298E2B9900357969 /* EntryView.swift */,
+			);
+			path = SessionView;
+			sourceTree = "<group>";
+		};
 		9B296483298E192E00357969 = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +74,7 @@
 				9B2964B9298E489C00357969 /* HomePage */,
 				9B296489298E192E00357969 /* BoulderingAppApp.swift */,
 				9B2964B3298E32CC00357969 /* ProgressView.swift */,
-				9B2964A7298E2B9900357969 /* EntryView.swift */,
+				4601A1CA298E48DD0072CD1B /* SessionView */,
 				9B29648B298E193000357969 /* Assets.xcassets */,
 			);
 			path = Shared;
