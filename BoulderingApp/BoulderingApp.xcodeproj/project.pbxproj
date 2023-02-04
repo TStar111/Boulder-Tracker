@@ -59,6 +59,20 @@
 			path = SessionView;
 			sourceTree = "<group>";
 		};
+		4601A1CB298E4E0E0072CD1B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		4601A1CC298E4E7E0072CD1B /* robbi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = robbi;
+			sourceTree = "<group>";
+		};
 		9B296483298E192E00357969 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +114,8 @@
 		9B2964B9298E489C00357969 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				4601A1CC298E4E7E0072CD1B /* robbi */,
+				4601A1CB298E4E0E0072CD1B /* New Group */,
 				9B2964B6298E3AB800357969 /* HomeView.swift */,
 				9B29648A298E192E00357969 /* ContentView.swift */,
 			);
