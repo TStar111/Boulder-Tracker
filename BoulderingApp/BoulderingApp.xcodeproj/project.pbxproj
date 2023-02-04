@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4601A1CE298E55A00072CD1B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4601A1CD298E55A00072CD1B /* SwiftUIView.swift */; };
+		4601A1CF298E55A00072CD1B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4601A1CD298E55A00072CD1B /* SwiftUIView.swift */; };
 		9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B296489298E192E00357969 /* BoulderingAppApp.swift */; };
 		9B29649A298E193000357969 /* BoulderingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B296489298E192E00357969 /* BoulderingAppApp.swift */; };
 		9B29649B298E193000357969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B29648A298E192E00357969 /* ContentView.swift */; };
@@ -22,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4601A1CD298E55A00072CD1B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		9B296489298E192E00357969 /* BoulderingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingAppApp.swift; sourceTree = "<group>"; };
 		9B29648A298E192E00357969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B29648B298E193000357969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				9B2964A7298E2B9900357969 /* EntryView.swift */,
+				4601A1CD298E55A00072CD1B /* SwiftUIView.swift */,
 			);
 			path = SessionView;
 			sourceTree = "<group>";
@@ -222,6 +226,7 @@
 			files = (
 				9B29649B298E193000357969 /* ContentView.swift in Sources */,
 				9B2964B7298E3AB800357969 /* HomeView.swift in Sources */,
+				4601A1CE298E55A00072CD1B /* SwiftUIView.swift in Sources */,
 				9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A8298E2B9900357969 /* EntryView.swift in Sources */,
 				9B2964B4298E32CC00357969 /* ProgressView.swift in Sources */,
@@ -234,6 +239,7 @@
 			files = (
 				9B29649C298E193000357969 /* ContentView.swift in Sources */,
 				9B2964B8298E3AB800357969 /* HomeView.swift in Sources */,
+				4601A1CF298E55A00072CD1B /* SwiftUIView.swift in Sources */,
 				9B29649A298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A9298E2B9900357969 /* EntryView.swift in Sources */,
 				9B2964B5298E32CC00357969 /* ProgressView.swift in Sources */,

@@ -10,11 +10,14 @@ import SwiftUI
 struct EntryView: View {
     var body: some View {
         VStack {
+            
             Circle()
                 .fill(.green)
                 .frame(width: 100, height: 100)
                 .overlay(Text("+").font(.system(size: 36)).foregroundColor(Color.white))
-            
+            Button("Cancel") {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }
         }
         
     }
