@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Session: Identifiable {
+struct Session: Encodable, Decodable, Identifiable {
     let id: UUID
     var duration: Int
     var month: Int
