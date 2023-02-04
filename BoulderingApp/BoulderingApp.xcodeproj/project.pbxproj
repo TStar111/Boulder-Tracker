@@ -20,6 +20,14 @@
 		9B2964B5298E32CC00357969 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B3298E32CC00357969 /* ProgressView.swift */; };
 		9B2964B7298E3AB800357969 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B6298E3AB800357969 /* HomeView.swift */; };
 		9B2964B8298E3AB800357969 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B6298E3AB800357969 /* HomeView.swift */; };
+		9B815F58298E5EF500149741 /* SessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F57298E5EF500149741 /* SessionList.swift */; };
+		9B815F59298E5EF500149741 /* SessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F57298E5EF500149741 /* SessionList.swift */; };
+		9B815F5B298E5FFD00149741 /* SessionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F5A298E5FFD00149741 /* SessionObject.swift */; };
+		9B815F5C298E5FFD00149741 /* SessionObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F5A298E5FFD00149741 /* SessionObject.swift */; };
+		9B815F5E298E6C4500149741 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F5D298E6C4500149741 /* SessionStore.swift */; };
+		9B815F5F298E6C4500149741 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F5D298E6C4500149741 /* SessionStore.swift */; };
+		9B815F61298E7CCC00149741 /* SessionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F60298E7CCC00149741 /* SessionCardView.swift */; };
+		9B815F62298E7CCC00149741 /* SessionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F60298E7CCC00149741 /* SessionCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +41,10 @@
 		9B2964A7298E2B9900357969 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 		9B2964B3298E32CC00357969 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		9B2964B6298E3AB800357969 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9B815F57298E5EF500149741 /* SessionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionList.swift; sourceTree = "<group>"; };
+		9B815F5A298E5FFD00149741 /* SessionObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionObject.swift; sourceTree = "<group>"; };
+		9B815F5D298E6C4500149741 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		9B815F60298E7CCC00149741 /* SessionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +125,10 @@
 			children = (
 				9B2964B6298E3AB800357969 /* HomeView.swift */,
 				9B29648A298E192E00357969 /* ContentView.swift */,
+				9B815F57298E5EF500149741 /* SessionList.swift */,
+				9B815F60298E7CCC00149741 /* SessionCardView.swift */,
+				9B815F5A298E5FFD00149741 /* SessionObject.swift */,
+				9B815F5D298E6C4500149741 /* SessionStore.swift */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -216,10 +232,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B29649B298E193000357969 /* ContentView.swift in Sources */,
+				9B815F5B298E5FFD00149741 /* SessionObject.swift in Sources */,
 				9B2964B7298E3AB800357969 /* HomeView.swift in Sources */,
+				9B815F61298E7CCC00149741 /* SessionCardView.swift in Sources */,
 				9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A8298E2B9900357969 /* EntryView.swift in Sources */,
+				9B815F5E298E6C4500149741 /* SessionStore.swift in Sources */,
 				9B2964B4298E32CC00357969 /* ProgressView.swift in Sources */,
+				9B815F58298E5EF500149741 /* SessionList.swift in Sources */,
 				90A1384E298E4E1C005E635A /* TimeLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,9 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B29649C298E193000357969 /* ContentView.swift in Sources */,
+				9B815F5C298E5FFD00149741 /* SessionObject.swift in Sources */,
 				9B2964B8298E3AB800357969 /* HomeView.swift in Sources */,
+				9B815F59298E5EF500149741 /* SessionList.swift in Sources */,
 				9B29649A298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A9298E2B9900357969 /* EntryView.swift in Sources */,
+				9B815F5F298E6C4500149741 /* SessionStore.swift in Sources */,
+				9B815F62298E7CCC00149741 /* SessionCardView.swift in Sources */,
 				9B2964B5298E32CC00357969 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
