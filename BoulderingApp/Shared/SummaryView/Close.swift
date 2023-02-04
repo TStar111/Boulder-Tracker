@@ -11,7 +11,7 @@ struct Close: View {
     var body: some View {
         Text("CLOSE")
             .padding([.leading, .trailing], 20.0)
-            .padding([.top, .bottom], 10)
+            .padding([.top, .bottom], 10.0)
             .background(.red)
             .font(.headline)
             .foregroundColor(.white)

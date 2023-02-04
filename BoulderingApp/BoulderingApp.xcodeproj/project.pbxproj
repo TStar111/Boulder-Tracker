@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		90A1384E298E4E1C005E635A /* TimeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A1384D298E4E1C005E635A /* TimeLocation.swift */; };
 		90A13850298E5499005E635A /* Close.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A1384F298E5499005E635A /* Close.swift */; };
+		90A13852298E6A1F005E635A /* SummaryStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A13851298E6A1F005E635A /* SummaryStats.swift */; };
+		90A13854298E6C1D005E635A /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A13853298E6C1D005E635A /* Summary.swift */; };
 		9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B296489298E192E00357969 /* BoulderingAppApp.swift */; };
 		9B29649A298E193000357969 /* BoulderingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B296489298E192E00357969 /* BoulderingAppApp.swift */; };
 		9B29649B298E193000357969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B29648A298E192E00357969 /* ContentView.swift */; };
@@ -28,6 +30,8 @@
 /* Begin PBXFileReference section */
 		90A1384D298E4E1C005E635A /* TimeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLocation.swift; sourceTree = "<group>"; };
 		90A1384F298E5499005E635A /* Close.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Close.swift; sourceTree = "<group>"; };
+		90A13851298E6A1F005E635A /* SummaryStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryStats.swift; sourceTree = "<group>"; };
+		90A13853298E6C1D005E635A /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 		9B296489298E192E00357969 /* BoulderingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoulderingAppApp.swift; sourceTree = "<group>"; };
 		9B29648A298E192E00357969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B29648B298E193000357969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 			children = (
 				90A1384D298E4E1C005E635A /* TimeLocation.swift */,
 				90A1384F298E5499005E635A /* Close.swift */,
+				90A13851298E6A1F005E635A /* SummaryStats.swift */,
+				90A13853298E6C1D005E635A /* Summary.swift */,
 			);
 			path = SummaryView;
 			sourceTree = "<group>";
@@ -226,7 +232,9 @@
 				9B2964B7298E3AB800357969 /* HomeView.swift in Sources */,
 				9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A8298E2B9900357969 /* EntryView.swift in Sources */,
+				90A13852298E6A1F005E635A /* SummaryStats.swift in Sources */,
 				90A13850298E5499005E635A /* Close.swift in Sources */,
+				90A13854298E6C1D005E635A /* Summary.swift in Sources */,
 				9B2964BB298E4DE700357969 /* Charles.swift in Sources */,
 				9B2964B4298E32CC00357969 /* ProgressView.swift in Sources */,
 				90A1384E298E4E1C005E635A /* TimeLocation.swift in Sources */,

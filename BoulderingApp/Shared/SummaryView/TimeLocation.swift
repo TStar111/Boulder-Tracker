@@ -15,16 +15,18 @@ struct TimeLocation: View {
     
         
     var body: some View {
-        VStack {
+        VStack(spacing: 10.0) {
             Text("Time Placeholder") // Will use session time
+                .font(.largeTitle)
             Text("Location Placeholder") // Will use location from session
-            
+                .font(.title2)
         }
+        .padding()
     }
 }
 
 struct TimeLocation_Previews: PreviewProvider {
     static var previews: some View {
-        TimeLocation(currentSession)
+        TimeLocation()//would need to pass in session information
     }
 }
