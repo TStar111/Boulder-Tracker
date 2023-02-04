@@ -20,6 +20,8 @@
 		9B2964B5298E32CC00357969 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B3298E32CC00357969 /* ProgressView.swift */; };
 		9B2964B7298E3AB800357969 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B6298E3AB800357969 /* HomeView.swift */; };
 		9B2964B8298E3AB800357969 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964B6298E3AB800357969 /* HomeView.swift */; };
+		9B2964BB298E4DE700357969 /* Charles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964BA298E4DE700357969 /* Charles.swift */; };
+		9B2964BC298E4DE700357969 /* Charles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2964BA298E4DE700357969 /* Charles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		9B2964A7298E2B9900357969 /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
 		9B2964B3298E32CC00357969 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		9B2964B6298E3AB800357969 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9B2964BA298E4DE700357969 /* Charles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 				9B2964B3298E32CC00357969 /* ProgressView.swift */,
 				4601A1CA298E48DD0072CD1B /* SessionView */,
 				9B29648B298E193000357969 /* Assets.xcassets */,
+				9B2964BA298E4DE700357969 /* Charles.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -219,6 +223,7 @@
 				9B2964B7298E3AB800357969 /* HomeView.swift in Sources */,
 				9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A8298E2B9900357969 /* EntryView.swift in Sources */,
+				9B2964BB298E4DE700357969 /* Charles.swift in Sources */,
 				9B2964B4298E32CC00357969 /* ProgressView.swift in Sources */,
 				90A1384E298E4E1C005E635A /* TimeLocation.swift in Sources */,
 			);
@@ -232,6 +237,7 @@
 				9B2964B8298E3AB800357969 /* HomeView.swift in Sources */,
 				9B29649A298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A9298E2B9900357969 /* EntryView.swift in Sources */,
+				9B2964BC298E4DE700357969 /* Charles.swift in Sources */,
 				9B2964B5298E32CC00357969 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
