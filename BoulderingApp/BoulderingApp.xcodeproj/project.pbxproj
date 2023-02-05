@@ -26,8 +26,8 @@
 		9B815F5F298E6C4500149741 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F5D298E6C4500149741 /* SessionStore.swift */; };
 		9B815F61298E7CCC00149741 /* SessionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F60298E7CCC00149741 /* SessionCardView.swift */; };
 		9B815F62298E7CCC00149741 /* SessionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B815F60298E7CCC00149741 /* SessionCardView.swift */; };
-		9BF3ECD6298E820300114850 /* TempProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3ECD5298E820300114850 /* TempProjectView.swift */; };
 		9BF3ECDA298E8E6B00114850 /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3ECD9298E8E6B00114850 /* AddSessionView.swift */; };
+		9BF3ECDC298EB8BF00114850 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3ECDB298EB8BF00114850 /* ProjectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +44,8 @@
 		9B815F5A298E5FFD00149741 /* SessionObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionObject.swift; sourceTree = "<group>"; };
 		9B815F5D298E6C4500149741 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		9B815F60298E7CCC00149741 /* SessionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCardView.swift; sourceTree = "<group>"; };
-		9BF3ECD5298E820300114850 /* TempProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempProjectView.swift; sourceTree = "<group>"; };
 		9BF3ECD9298E8E6B00114850 /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
+		9BF3ECDB298EB8BF00114850 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 				9B815F5A298E5FFD00149741 /* SessionObject.swift */,
 				9BF3ECD9298E8E6B00114850 /* AddSessionView.swift */,
 				9B815F5D298E6C4500149741 /* SessionStore.swift */,
-				9BF3ECD5298E820300114850 /* TempProjectView.swift */,
 				9B296489298E192E00357969 /* BoulderingAppApp.swift */,
+				9BF3ECDB298EB8BF00114850 /* ProjectView.swift */,
 				9B2964B3298E32CC00357969 /* ProgressView.swift */,
 				9B2964A7298E2B9900357969 /* EntryView.swift */,
 				9B29648B298E193000357969 /* Assets.xcassets */,
@@ -210,8 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B29649B298E193000357969 /* ContentView.swift in Sources */,
+				9BF3ECDC298EB8BF00114850 /* ProjectView.swift in Sources */,
 				9B815F5B298E5FFD00149741 /* SessionObject.swift in Sources */,
-				9BF3ECD6298E820300114850 /* TempProjectView.swift in Sources */,
 				9B815F61298E7CCC00149741 /* SessionCardView.swift in Sources */,
 				9B296499298E193000357969 /* BoulderingAppApp.swift in Sources */,
 				9B2964A8298E2B9900357969 /* EntryView.swift in Sources */,

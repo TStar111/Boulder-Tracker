@@ -25,8 +25,8 @@ struct SessionList: View {
                     .ignoresSafeArea(edges: .top)
                 
                 List {
-                    ForEach($sesh) { $sesh in
-                        NavigationLink(destination: TempProjectView()) {
+                    ForEach(sesh) { sesh in
+                        NavigationLink(destination: ProjectView(sesh: sesh)) {
                             SessionCardView(sesh: sesh)
                         }
                     }
